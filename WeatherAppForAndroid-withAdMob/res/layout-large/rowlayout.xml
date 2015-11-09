@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/row_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="MON"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/row_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/row_day"
+        android:layout_alignBottom="@+id/row_day"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="15/20"
+        android:textSize="40sp"
+        android:textColor="#FFF" />
+
+    <ImageView
+        android:id="@+id/row_img"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignBottom="@+id/row_day"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/row_temp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img01d" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.spring.weather.view.CustomSwitchPreference
+        android:key="use_location"
+        android:title="Use My Location"
+       android:defaultValue="false"
+        android:summary="Use device location to get weather data." />
+
+    <Preference
+        android:key="city_name"
+        android:title="Choose city" />
+
+    <ListPreference
+        android:dialogTitle="Units"
+        android:entries="@array/units_name"
+        android:entryValues="@array/units_valute"
+        android:key="units"
+        android:title="Units" />
+    <Preference android:title="Theme" android:summary="Choose theme" android:key="app_theme"/><ListPreference
+        android:dialogTitle="Widget refresh rate"
+        android:entries="@array/widget_refresh_names"
+        android:entryValues="@array/widget_refresh_valutes"
+        android:key="refresh"
+        android:summary="Select how often you will update the widget"
+        android:title="Widget refresh rate" />
+    
+
+</PreferenceScreen>

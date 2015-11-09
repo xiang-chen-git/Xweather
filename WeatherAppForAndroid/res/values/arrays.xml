@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units_valute">
+    <item>@string/units_valute_metric</item>
+    <item>@string/units_valute_imperial</item>
+	</string-array>
+	
+	<string-array name="units_name">
+    <item>@string/units_name_metric</item>
+    <item>@string/units_name_imperial</item>
+	</string-array>
+	
+	<string-array name="widget_refresh_names">
+	    <item>@string/widget_refresh_name_01</item>
+	    <item>@string/widget_refresh_name_02</item>
+	    <item>@string/widget_refresh_name_03</item>
+	    <item>@string/widget_refresh_name_04</item>
+	</string-array>
+		<string-array name="widget_refresh_valutes">
+	    <item>@string/widget_refresh_valute_01</item>
+	    <item>@string/widget_refresh_valute_02</item>
+	    <item>@string/widget_refresh_valute_03</item>
+	    <item>@string/widget_refresh_valute_04</item>
+	</string-array>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        android:weightSum="5" >
+
+        <RadioButton
+            android:id="@+id/color_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color1"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/color_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color2"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/color_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color3"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color4"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/color_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color5"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+ </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+    </LinearLayout>
+
+</LinearLayout>
